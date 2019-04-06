@@ -3,6 +3,7 @@
 <link rel="stylesheet" type="text/css" href="test.css" />
 <html>
     <body>
+        <form>
 <div class="main">
     <body>
         <h1>Вакансия: Junior Frontend Developer</h1>
@@ -20,23 +21,21 @@
             </div></div>
 </div>
 <div class="all">    
-<form>
-    Дата собеседования
+   <div>
+    <b>Дата собеседования</b>
     <input type="date" name="date"
-</form>
+    </div>
 </p>
-<p>Уровень английского:
-<form action="/action_page.php">
+<p><b>Уровень английского:</b>
     <p><label>
-        <input type="radio" name="eng-lvl" value="Плохо"> Плохо<br> 
+    <input type="radio" name="eng-lvl" value="Плохо"> Плохо<br> 
     <input type="radio" name="eng-lvl" value="Средне"> Средне<br>
     <input type="radio" name="eng-lvl" value="Хорошо"> Хорошо<br>
     <input type="radio" name="eng-lvl" value="Превосходно"> Превосходно<br>
         </label>
     </p>
-</form>
 </p>
-<p>Ключевые навыки:
+<p><b>Ключевые навыки:</b>
 <body>
     <ul>
         <li>HTML</li>
@@ -44,38 +43,35 @@
         <li>JavaScript</li>
         <li>...</li>
     </ul>
-        <form>
+        
             введите навык:<br>
             <input type="text" name="ведите навык"><br>
             <input type="submit" value="Добавить в список"
-        </form>
+        
 </body>
 </p>
-<p>Коммуникабельность:
-    <form action="/action_page.php">
+<p><b>Коммуникабельность:</b>
         <select name="choose">
             <option value="" selected disabled hidden>Выберите значение</option>
             <option value="Общительный">Общительный</option>
             <option value="Закрытый в себе">Закрытый в себе</option>
             <option value="Открыт для окружающих">Открыт для окружающих</option>
         </select>
-    </form>
 </p>
 <p>
-    Желаемая з/п:
+    <b>Желаемая з/п:</b>
     <input type="number" name="write-value"
 </p>
 <p>
-    Подходит по критериям:
-    <form action="/action_page.php">
-    <input type="checkbox" name="var1" value="Знание английского">Знание английского<br>
+    <b>Подходит по критериям:</b>
+    <p><input type="checkbox" name="var1" value="Знание английского">Знание английского<br>
     <input type="checkbox" name="var2" value="Оклад">Оклад<br>
     <input type="checkbox" name="var3" value="Навыки">Навыки<br>
     <input type="checkbox" name="var4" value="Сразу видно, что свой человек">Сразу видно, что свой человек<br>
-    </form>
+    </p>
 </p>
 
-<p>Образование, курсы и т.п.</p>
+<p><b>Образование, курсы и т.п.</b></p>
 <table border="1">
     <thead>
         <th>#</th>
@@ -100,5 +96,6 @@
 </table>
 </div>
 </div>
+</form>
 </body>
 </html>

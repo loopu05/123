@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(183, 235, 224);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+    border: 3px solid red;
+    width: 580px;
+}
+
+.top {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 360px;
+    border: 1px solid royalblue;
+    padding: 1em;
+    background-color: aquamarine
+}
+
+.all {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 360px;
+    border: 2px dotted royalblue;
+    background-color: white;
+    padding: 1em;
+}
+
+
+
